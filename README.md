@@ -1,1 +1,1 @@
-# 8-puzzle-A-Manhattan-
+# 8-puzzle-Astar-Manhattan-
