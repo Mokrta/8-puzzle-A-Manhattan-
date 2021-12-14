@@ -34,5 +34,6 @@ int main()
         cout << "\n";
         temp.print();
     }
+    cout << "\nGenerated and stored stans while solving: " << solver.get_closed_size();
     return 0;
 }
