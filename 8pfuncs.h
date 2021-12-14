@@ -52,6 +52,7 @@ public:
     void expand_node(Node* cur, const Neighbour& g);
     Node* next_node();
     bool is_solved();
+    unsigned int get_closed_size();
 };
 
 // Goal(end) values
@@ -187,6 +188,7 @@ Node* Solver::next_node(){
     return temp;
 }
 bool Solver::is_solved() { return done; }
+unsigned int Solver::get_closed_size() { return closed_list.size(); }
 
 
 #endif // 8PFUNCS_H_INCLUDED
